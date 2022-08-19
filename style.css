@@ -13,10 +13,19 @@ body {
 }
 
 .card {
-    width: 100%;
     height: auto;
     padding: 20px;
     border-radius: 10px;
+}
+
+#show {
+    display: none;
+    color: red;
+}
+
+#nshow:hover #show {
+    display: block;
+    
 }
 
 form {
@@ -32,4 +41,14 @@ input {
     margin: 5px 0px;
     padding: 5px;
     outline: none;
+}
+
+button {
+    will-change: transform;
+}
+
+
+button:hover {
+    transform: scale(1.05);
+    transition: transform 800ms;
 }
