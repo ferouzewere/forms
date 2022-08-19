@@ -14,13 +14,19 @@
 
 <body>
     <div class="container">
-        <div class="row">
-            <div class="card">
-                <h2 class="text-center">Sign-Up Form</h2>
+        <div class="row w-100">
+            <div class="col-2"></div>
+            <div class="card col-8">
+                <div id="nshow">
+                    <h2 class="text-center">Sign-Up Form</h2>
+                    <div id="show" class="pt-2 mb-0">
+                        <p>Fill all the required details in the form below to sign up fro the example form.</p>
+                    </div>
+                </div>
                 <hr>
                 <form action="url-where-data-should-be-sent-to" class="justify-content-center">
-                    <label for="fullName">Name:</label>
-                    <input required type="text" name="fullName" placeholder="Enter your full name">
+                    <!-- <label for="fullName">Name:</label>
+                    <input required type="text" name="fullName" placeholder="Enter your full name"> -->
                     <label for="userName">Choose a unique username:</label>
                     <input required type="text" class="form-control" name="userName" placeholder="Your username">
                     <label for="password1">Create a strong password:</label>
@@ -65,6 +71,7 @@
                 </form>
 
             </div>
+            <div class="col-2"></div>
         </div>
 
     </div>
