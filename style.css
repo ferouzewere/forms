@@ -3,10 +3,9 @@ body {
     background-size: cover;
     height: 100vh;
     width: 100%;
-    /* font-family: cursive; */
 }
 .container {
-    height: 100vh;
+    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -17,6 +16,16 @@ body {
     height: auto;
     padding: 20px;
     border-radius: 10px;
+}
+
+#show {
+    display: none;
+    color: red;
+}
+
+#nshow:hover #show {
+    display: block;
+    
 }
 
 form {
@@ -32,4 +41,14 @@ input {
     margin: 5px 0px;
     padding: 5px;
     outline: none;
+}
+
+button {
+    will-change: transform;
+}
+
+
+button:hover {
+    transform: scale(1.05);
+    transition: transform 800ms;
 }
