@@ -1,0 +1,54 @@
+body {
+    background-color: antiquewhite;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+.container {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: cursive;
+}
+
+.card {
+    height: auto;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#show {
+    display: none;
+    color: red;
+}
+
+#nshow:hover #show {
+    display: block;
+    
+}
+
+form {
+    width: 100%;
+}
+
+label {
+    line-height: 1.9rem;
+}
+
+input {
+    width: 100%;
+    margin: 5px 0px;
+    padding: 5px;
+    outline: none;
+}
+
+button {
+    will-change: transform;
+}
+
+
+button:hover {
+    transform: scale(1.05);
+    transition: transform 800ms;
+}
